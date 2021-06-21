@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Yanone+Kaffeesatz&display=swap');
+
+/* seccion bajo carrusel */
+.texto-bajo-carrusel{
+    width: 92%;
+   color: white;
+    background-color: rgb(135, 194, 47);
+    padding: 10px;
+    text-align: center;
+}
+
+/* imagenes de venta */
+.img-ventas-sale{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(233, 233, 233);
+   padding: 2.5rem;
+}
+/* frutas y vegetales */
+.seccion-tres{
+    text-align: center;
+    margin: 3rem;
+}
+.boton-venta{
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.letras{
+    color: grey;
+}
+
+/* boton */
+button{
+    display: flex;
+    background-color: rgb(135, 194, 47);
+    color: white;
+    border-color:  rgb(195, 251, 110);
+    align-items: flex-end;
+    
+}
+/* productos */
+.caja{
+    position: relative;
+    display: inline-block;
+}
+.texto-uno{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-size: 30px;
+}
+.descripcion-productos{
+    margin-top: 2rem;
+}
+.monto{
+    color: rgb(156, 212, 72);
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+}
+.texto-productos{
+    color: grey;
+    border-bottom: 2px dotted grey ;
+}
+.boton-producto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    
+}
+/* Contactanos */
+.contacto{
+    font-size: 30px;
+}
+.contactanos{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.boton-contacto{
+    background-color: rgb(135, 194, 47);
+    color: white;
+    margin-bottom: 10%;
+}
+.imagen-contacto{
+    width: auto;
+    height: auto;
+    width: 100%;
+    height: 430px;
+}
+.texto-uno-contacto{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/* decoracion footer */
+.h{
+border-bottom: 2px solid yellow;
+font-family: 'Courgette', cursive;
+}
+.c{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.icono{
+    border: 2px solid white;
+    padding: 0.3rem;
+}
+
+input[placeholder="Email Address* "]{
+    font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f007";
+  text-align-last: right;
+}
+.texto-pie{
+ text-align: center;
+}
+
+/* media queries- mobile */
+@media (min-width:352px) and (max-width:767px){
+    /* header */
+    /* imagenes */
+    img {
+        width: 100%;
+    }
+    /* titulo imagen carrusel */
+    b, strong {
+        font-weight: bolder;
+        /* font-size: medium; */
+        font-size: 20px;
+    }
+    /* nav */
+    .justify-content-end {
+        -ms-flex-pack: end!important;
+        /* justify-content: flex-end!important; */
+        justify-content: flex-start;
+        font-size: small;
+    }
+    /* texto bajo carrusel */
+    .texto-bajo-carrusel {
+         width: 100%; 
+        color: white;
+        background-color: rgb(135, 194, 47);
+        padding: 10px;
+        text-align: center;
+        /* font-size: 10px; */
+    }
+
+    /* espacio botones de venta */
+    .boton-venta {
+        font-size: 20px;
+        font-family: 'Bree Serif', serif;
+        margin-bottom: 2rem;
+    }
+    /* contactanos */
+    .contactanos {
+        display: flex;
+        margin-top: 5rem;
+        margin-left: 0rem;
+    }
+}
