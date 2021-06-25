@@ -67,9 +67,14 @@ button{
 .boton-producto{
     display: flex;
     flex-direction: row;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     
 }
+.contenedor-productos{
+    padding: 5rem;
+
+}
+
 /* Contactanos */
 .contacto{
     font-size: 30px;
@@ -83,6 +88,7 @@ button{
     background-color: rgb(135, 194, 47);
     color: white;
     margin-bottom: 10%;
+    padding: 5px;
 }
 .imagen-contacto{
     width: auto;
@@ -156,10 +162,42 @@ input[placeholder="Email Address* "]{
         font-family: 'Bree Serif', serif;
         margin-bottom: 2rem;
     }
+    /* productos */
+    .contenedor-productos {
+        padding: 2rem;
+    }
     /* contactanos */
     .contactanos {
         display: flex;
         margin-top: 5rem;
         margin-left: 0rem;
+    }
+    .imagen-contacto {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+}
+/* media queries tablet */
+
+@media (min-width:768px) and (max-width:992px){
+
+    /* productos */
+  .img-uvas{
+      padding-top: 2rem;
+  }
+    .contenedor-productos {
+        padding: 3rem;
+    }
+    /* contactos */
+    .imagen-contacto {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 40px;
+    }
+    /* iconos footer */
+    .icono {
+        border: 2px solid white;
+        padding: 0.2rem;
     }
 }

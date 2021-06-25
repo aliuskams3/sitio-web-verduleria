@@ -48,15 +48,15 @@
             </div>
         </div>
         <!-- INFORMACIÓN DE PRODUCTO -->
-        <div class="container-fluid ">
+        <div class="contenedor-productos">
           <div class="row">
-            <div class="col-sm-12 col-lg-6 text-right">
+            <div class="col-sm-12 col-lg-6 text-center">
               <!-- IMAGEN DE MANGO -->
-              <img src="./img/imagen-mango-producto.jpg"  alt="">
+              <img src="./img/img-uvas.jpg" alt="">
             </div>
-            <div class="col-sm-12 col-lg-6">
-              <div> 
-               <!-- TITULO AL LADO DE LA IMAGEN DE MANGOS -->
+            <div class="col-sm-12 col-lg-6 ">
+              <div class="img-uvas"> 
+               <!-- TITULO AL LADO DE LA IMAGEN DE UVAS -->
                 <h4>Fachion lorem ipsum dolor sit amet</h4>
                 <!-- PRECIOS BAJO TITULO -->
                <p class="m-0 row"><span class="m-2"><del>$60.00</del></span><span class="monto">$40.79</span></p> 
@@ -67,9 +67,9 @@
                <!-- BOTONES-PRODUCTOS -->
                <div class="boton-producto ">
                  <!-- BOTON COMPRAR -->
-                 <button type="button">Comprar</button>
+                 <button type="button" class="p-2">Comprar</button>
                  <!-- BOTON AGREGAR AL CARRO -->
-                 <button type="button" style="margin-left: 5px;" >Agregar al carro</button>
+                 <button type="button" class="p-2" style="margin-left: 5px;" >Agregar al carro</button>
                </div>
               </div>
             </div>
@@ -77,9 +77,66 @@
         </div>
 
     </main>
-
-
-     <!-- BOOTSTRAP JS -->
+      <!-- PIE DE PAGINA -->
+      <footer>
+        <div class="m-0 bg-dark jumbotron jumbotron-fluid">
+            <div class="container text-white">
+                <div class="row">
+                  <div class="col-sm-4 col-lg-4">
+                      <!-- TITULO HORARIO -->
+                   <p class="h">Horarios de atención</p>
+                   <!-- HORARIO -->
+                   <p class="c">Lunes-Viernes: 08:00 a. m a 05:00 p. m
+                      <br>
+                      Sábado: 10:00 a. m a 8:00 p. m 
+                      <br>
+                      Domingo: Cerrado 
+                   </p>
+                  </div>
+                  <div class="col-sm-4 col-lg-4">
+                      <!-- TITULO NEWSLETTER -->
+                    <p class="h">Newsletter</p>
+                    <!-- FORMULARIO -->
+                    <form action="https://formspree.io/f/mnqlvznk" method="POST">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="correo" aria-describedby="emailHelp" placeholder="Email Address* ">
+                        </div>
+                        <button type="submit" class="text-white">ENVIAR</button>
+                      </form>
+                  </div>
+                  <div class="col-sm-4 col-lg-4">
+                      <!-- TITULO REDES SOCIALES -->
+                    <p class="h">Redes Sociales</p>
+                    <!-- TEXTO E ICONOS -->
+                    <p class="c">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <!-- ICONOS -->
+                    <p> 
+                      <!-- ICONO FACE -->
+                      <span class="icono"><i class="fab fa-facebook-square"></i></span> 
+                      <!-- ICONO TWITTER -->
+                      <span class="icono"><i class="fab fa-twitter-square"></i></span>
+                      <!-- ICONO LINKED -->
+                       <span class="icono"><i class="fab fa-linkedin"></i></span>
+                       <!-- ICONO GOOGLE PLUS -->
+                       <span class="icono"><i class="fab fa-google-plus"></i></span>
+                       <!-- ICONO WIFI -->
+                       <span class="icono"><i class="fas fa-rss"></i></span>
+                       <!-- ICONO PINTEREST -->
+                       <span class="icono"><i class="fab fa-pinterest-p"></i> </span>
+                       <!-- ICONO WHATSAAP -->
+                       <span class="icono" style="margin-left: 3px;"><i class="fab fa-whatsapp"></i></span>
+                    </p>
+                  </div>
+                </div>
+                <!-- TODOS LOS DERECHOS RESERVADOS -->
+                <div class="texto-pie mt-3">
+                  <span class="d-inline-flex p-2 bd-highlight">Todos los derechos reservados. <i class="far fa-copyright"></i>20121</span>
+                </div>
+              </div>
+          </div>
+    </footer>
+    <!-- BOOTSTRAP JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
