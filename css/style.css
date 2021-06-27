@@ -139,6 +139,18 @@ input[placeholder="Email Address* "]{
         /* font-size: medium; */
         font-size: 20px;
     }
+    /* texto-imagen-carrusel */
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 10px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 0px; 
+        color: #fff;
+        text-align: center;
+    }
     /* nav */
     .justify-content-end {
         -ms-flex-pack: end!important;
