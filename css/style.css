@@ -2,11 +2,16 @@
 
 /* seccion bajo carrusel */
 .texto-bajo-carrusel{
-    width: 92%;
+    width: 94%;
    color: white;
     background-color: rgb(135, 194, 47);
     padding: 10px;
     text-align: center;
+}
+.img-tres{
+    display: flex;
+    margin: 3rem;
+    flex-direction: row;
 }
 
 /* imagenes de venta */
@@ -168,6 +173,11 @@ input[placeholder="Email Address* "]{
         /* font-size: 10px; */
     }
 
+    /* imagenes despues del carrusel */
+    .img-tres {
+        flex-direction: column;
+    }
+
     /* espacio botones de venta */
     .boton-venta {
         font-size: 20px;
@@ -177,6 +187,11 @@ input[placeholder="Email Address* "]{
     /* productos */
     .contenedor-productos {
         padding: 2rem;
+    }
+    /* detalles productos titulo */
+    .texto-uno {
+        top: 25%;
+        font-size: 20px;
     }
     /* contactanos */
     .contactanos {
@@ -193,7 +208,15 @@ input[placeholder="Email Address* "]{
 /* media queries tablet */
 
 @media (min-width:768px) and (max-width:992px){
-
+ 
+    /* imagenes despues del carrusel */
+    .img-tres {
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-bajo-carrusel {
+        width: 350px;
+    }
     /* productos */
   .img-uvas{
       padding-top: 2rem;
